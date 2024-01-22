@@ -30,7 +30,11 @@ Acompanhe minha transmissão ao vivo em:
 ## Contato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Para informações adicionais ou parcerias, entre em contato via:
 =======
 Para informações adicionais ou parcerias, entre em contato via:
 >>>>>>> 963d8985bfec3a049980f0e6fe7ae49f4f7d291d
+=======
+Para informações adicionais ou parcerias, entre em contato via:
+>>>>>>> origin/main
