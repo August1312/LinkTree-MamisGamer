@@ -1,0 +1,165 @@
+/* Importação de Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rye&display=swap');
+
+/* Cores Personalizadas */
+:root {
+    --darkest-color: #000000;
+    --lightest-color: #0cd0cd;
+    --highlight-color: #ffffff;
+    --bright-color-1: #cf1596;
+    --bright-color-2: #76b6c4;
+    --bright-color-3: #7fcdff;
+    --bright-color-4: #6093d2;
+    --bright-color-5: #fb9bff;
+    --bright-color-6: #f988ff;
+}
+
+/* Definições de Fontes Padrão */
+:root {
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-body-font-size: 1.5rem;
+}
+
+/* Estilo Geral do Corpo do Documento */
+html,
+body {
+    font-family: 'Roboto', var(--bs-font-sans-serif);
+    background-image: url(../img/Imagem\ do\ WhatsApp\ de\ 2024-01-21\ à\(s\)\ 21.21.45_b85ba122.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    padding: 0;
+}
+
+/* Estilo de Elementos Genéricos */
+div {
+    display: block;
+}
+
+/* Estilo de Links e Itens de Lista */
+.link-list-item {
+    border: 1px solid var(--lightest-color);
+    font-size: var(--bs-body-font-size);
+    font-family: 'Alice', var(--bs-font-sans-serif);
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: 10px auto;
+    color: var(--bright-color-5);
+    padding: 10px;
+    transition: all 0.3s;
+    text-shadow: 1px 1px var(--bright-color-6);
+}
+
+.link-list-item-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de Destaque em Links */
+.highlighted,
+.link-list-item:hover,
+a:hover {
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    text-shadow: 0 0 2em var(--highlight-color);
+}
+
+/* Estilo de Ícones e Imagens */
+.icon-list-img {
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+}
+
+/* Estilo de Formato Circular */
+.circle-shape {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 5px 5px var(--darkest-color);
+}
+
+/* Estilo de Contêiner */
+.container {
+    width: 100%;
+    max-width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilo de Imagem de Perfil */
+.profile-pic {
+    display: inline;
+    margin-right: auto;
+    margin: 0px;
+    height: 100%;
+    width: auto;
+}
+
+/* Estilo de Links Genéricos */
+a {
+    color: var(--darkest-color);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Estilo de Links do Instagram */
+.ig-link {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Estilo de Links Hover */
+.link-list-item:hover {
+    color: var(--lightest-color); 
+}
+
+/* Estilo do Rodapé */
+#footer {
+    font-size: 14px;
+    position: flex ;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Estilo de Ícones Gerais */
+i {
+    text-align: center;
+    padding: 10px;
+    color: var(--bright-color-5);
+    text-shadow: 1px 1px var(--highlight-color) !important;
+}
+
+/* Estilo de Ícones Hover */
+i:hover {
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    text-shadow: 0 0 2em var(--highlight-color); 
+}
+
+/* Estilo de Títulos */
+h4 {
+    text-shadow: 1px 1px var(--bright-color-5);
+}
+
+/* Estilo de Controle de Áudio */
+audio {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+    background: var(--bright-color-5);
+}
